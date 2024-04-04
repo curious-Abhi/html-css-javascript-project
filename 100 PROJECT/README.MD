@@ -6,7 +6,7 @@ This repository contains 100 projects.
 
 ### [# 01. BG_VIDEO](https://github.com/curious-Abhi/html-css-javascript-project/tree/main/100%20PROJECT/01.BG_VIDEO)
 
-![BG_VIDEO](https://github.com/curious-Abhi/html-css-javascript-project/blob/main/100%20PROJECT/01.BG_VIDEO/bg_video.mp4)
+[Watch Video](https://github.com/curious-Abhi/html-css-javascript-project/raw/main/100%20PROJECT/01.BG_VIDEO/bg_video.mp4)
 
 ---
 
