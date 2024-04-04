@@ -1,11 +1,12 @@
-# 01. BG_VIDEO
+# 100 Projects - README
 
-<video width="320" height="240" controls>
-  <source src="01.BG_VIDEO/bg_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+This repository contains 100 projects.
 
+## Project List
 
+### [# 01. BG_VIDEO](https://github.com/curious-Abhi/html-css-javascript-project/tree/main/100%20PROJECT/01.BG_VIDEO)
+
+![BG_VIDEO](https://github.com/curious-Abhi/html-css-javascript-project/blob/main/100%20PROJECT/01.BG_VIDEO/bg_video.mp4)
 
 ---
 
