@@ -1,6 +1,7 @@
 # 01. BG_VIDEO
 
-[![BG Video Preview](bg_video_preview.png)](01.BG_VIDEO/bg_video.mp4)
+[Watch Video](01.BG_VIDEO/bg_video.mp4)
+
 
 ---
 
