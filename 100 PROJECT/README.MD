@@ -44,14 +44,8 @@ This repository contains 100 projects.
 
 ---
 
-# 07. SUBMIT BUTTON
+# 07. TO DO LIST
 
-[![Submit Button Preview](submit_button_preview.png)](submit_button.mp4)
+[![To do list Preview](preview1.png)]
+[![To do list Preview](preview2.png)]
 
----
-
-# 08. ANIMATED_HAMBURGER_MENU
-
-[![Animated Hamburger Menu Preview](animated_hamburger_menu_preview.png)](animated_hamburger_menu.mp4)
-
-...
