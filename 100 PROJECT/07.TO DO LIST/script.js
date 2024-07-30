@@ -1,28 +1,47 @@
-document.addEventListener(`DOMContentLoaded`, () => {
+document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("to-do-list");
-  const taskInput = document.getElementById("task-input");
+  const textInput = document.getElementById("task-input");
   const taskList = document.getElementById("task-list");
 
-  form.addEventListener(`submit`, (e) => {
+
+
+form.addEventListener('submit',(e)=>{
     e.preventDefault();
-    addtask(taskInput.value);
-    taskInput.value = "";
-  });
+    addTask(textInput.value)
+    textInput.value="";
+})
 
-  function addtask(task) {
-    if (task.trim() === "") {
-      return;
+
+  function addTask(task){ if(task.trim()===''){
+        return;
     }
-    const li = document.createElement("li");
-    li.textContent = task;
+    const li=document.createElement('li');
+    li.textContent=task;
 
-    const deleteButton = document.createElement("button");
-    deleteButton.textContent = "Delete";
-    deleteButton.addEventListener("click", () => {
-      taskList.removeChild(li);
-    });
+    const actions=document.createElement('div')
+    actions.classList.add('actions')
 
-    li.appendChild(deleteButton);
-    taskList.appendChild(li);
-  }
-});
+    const editButton=document.createElement('button')
+        editButton.textContent="Edit"
+        editButton.addEventListener("click",()=>{
+            const newTask=prompt('Edit task:',task)
+            if(newTask){
+                li.firstChild.textContent=newTask;
+            }
+        })
+        
+
+    const deleteButton=document.createElement('button')
+    deleteButton.textContent="Delete"
+    deleteButton.addEventListener("click",()=>{
+        taskList.removeChild(li);
+
+        })  
+        actions.appendChild(editButton)
+        actions.appendChild(deleteButton)
+        li.appendChild(actions)
+    
+        taskList.appendChild(li);
+
+    }
+})
